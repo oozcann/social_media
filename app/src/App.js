@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Feed from './components/Feed';
 import Rightbar from './components/Rightbar';
 import Navbar from './components/Navbar';
+import Add from './components/Add';
 function App() {
   return (
     <Box>
@@ -12,6 +13,7 @@ function App() {
         <Feed></Feed>
         <Rightbar></Rightbar>
     </Stack>
+    <Add></Add>
     </Box>
   );
 }
