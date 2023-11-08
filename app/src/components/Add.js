@@ -40,7 +40,7 @@ import {
       <>
         <Tooltip
           onClick={(e) => setOpen(true)}
-          title="Delete"
+          title="New Post"
           sx={{
             position: "fixed",
             bottom: 20,
