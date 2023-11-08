@@ -37,7 +37,7 @@ const UserBox = styled(Box)(({theme}) => ({
 const Navbar = () => {
     const [open,setOpen] = useState(false);
   return (
-    <AppBar position='static'>
+    <AppBar position='sticky'>
         <StyledToolbar>
             <Typography variant='h6' sx={{display: {xs: 'none', sm: 'block'}}}>PERFECT BOOK</Typography>
             <Pets sx={{display: {xs: 'block', sm: 'none'}}}/>
